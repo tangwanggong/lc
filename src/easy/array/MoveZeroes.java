@@ -1,4 +1,4 @@
-package easy.number;
+package easy.array;
 
 /**
  * @author: Tang
