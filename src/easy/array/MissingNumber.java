@@ -20,6 +20,7 @@ public class MissingNumber {
      *
      * Input: [9,6,4,2,3,5,7,0,1]
      * Output: 8
+     * 排序后，一一比较,时间复杂度大概为O(logn+n),看到最优解时间复杂度为0(n)觉得数学思想比较重要
      * @param nums
      * @return
      */

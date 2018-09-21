@@ -25,6 +25,7 @@ public class ConvertSortedArrayToBinarySearchTree {
      *    -3   9
      *    /   /
      *  -10  5
+     *  利于递归一一创建左右子树
      * @param nums
      * @return
      */

@@ -15,6 +15,7 @@ public class MergeTwoSortedLists {
      *
      * Input: 1->2->4, 1->3->4
      * Output: 1->1->2->3->4->4
+     * 递归添加元素
      * @param l1
      * @param l2
      * @return

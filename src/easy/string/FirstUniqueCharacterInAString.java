@@ -18,6 +18,7 @@ public class FirstUniqueCharacterInAString {
      * s = "loveleetcode",
      * return 2.
      * Note: You may assume the string contain only lowercase letters.
+     * 计算每一个字母出现的次数,如为1,则计算字母所在位置,算出最小
      * @param s
      * @return
      */

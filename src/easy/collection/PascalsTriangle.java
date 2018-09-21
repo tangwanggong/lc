@@ -25,6 +25,7 @@ public class PascalsTriangle {
      *   [1,3,3,1],
      *  [1,4,6,4,1]
      * ]
+     * 时间复杂度很高- -,还以为有更优解，结果类似
      * @param numRows
      * @return
      */

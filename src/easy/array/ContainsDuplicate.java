@@ -24,6 +24,7 @@ public class ContainsDuplicate {
      *
      * Input: [1,1,1,3,3,4,3,2,4,2]
      * Output: true
+     * 排序后,比较相邻元素
      * @param nums
      * @return
      */

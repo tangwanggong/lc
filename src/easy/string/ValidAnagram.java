@@ -21,6 +21,7 @@ public class ValidAnagram {
      * Output: false
      * Note:
      * You may assume the string contains only lowercase alphabets.
+     * 排序字母位置,一一比较
      * @param s
      * @param t
      * @return

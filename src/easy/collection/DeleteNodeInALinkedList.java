@@ -33,6 +33,7 @@ public class DeleteNodeInALinkedList {
      * All of the nodes' values will be unique.
      * The given node will not be the tail and it will always be a valid node of the linked list.
      * Do not return anything from your function.
+     * 大概思想为把值付给上个node
      * @param node
      */
     public void deleteNode(ListNode node) {

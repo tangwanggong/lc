@@ -25,6 +25,7 @@ public class IntersectionOfTwoArraysII {
      *
      * Each element in the result should appear as many times as it shows in both arrays.
      * The result can be in any order.
+     * 排序后,比较双方的值,相等则添加到list,不等则根据大小进行指针挪动
      * @param nums1
      * @param nums2
      * @return
