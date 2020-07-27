@@ -3,8 +3,6 @@ package hard.tree;
 import structure.TreeNode;
 
 import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/recover-binary-search-tree/

@@ -36,7 +36,7 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
         return help(inorder,postorder,0,postorder.length-1,map);
     }
 
-    private TreeNode help(int[] inorder, int[] postorder, int pl, int pr,Map<Integer,Integer> map) {
+    private TreeNode help(int[] inorder, int[] postorder, int pl, int pr, Map<Integer,Integer> map) {
         if(pl>pr){
             return null;
         }

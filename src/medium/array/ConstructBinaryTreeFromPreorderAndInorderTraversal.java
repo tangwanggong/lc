@@ -35,7 +35,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         return help(preorder,0,preorder.length-1,inorder,0,inorder.length-1,map);
     }
 
-    private TreeNode help(int[] preorder, int pl, int pr, int[] inorder, int il, int ir,Map<Integer,Integer> indexMap) {
+    private TreeNode help(int[] preorder, int pl, int pr, int[] inorder, int il, int ir, Map<Integer,Integer> indexMap) {
         if(pl>pr){
             return null;
         }
