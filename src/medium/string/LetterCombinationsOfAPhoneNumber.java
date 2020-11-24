@@ -18,7 +18,7 @@ import java.util.List;
  * 输出：["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
  * 说明:
  * 尽管上面的答案是按字典序排列的，但是你可以任意选择答案输出的顺序。
- * 回溯.
+ * 回溯
  * @date 2020/11/24
  */
 public class LetterCombinationsOfAPhoneNumber {
