@@ -54,35 +54,49 @@ public class RomanToInteger {
     public int romanToInt(String s) {
         int sum = 0 ;
         char[] chars =  s.toCharArray();
-        for (int i = 0; i < chars.length; i++) {
-            char c = chars[i];
-            switch (c){
-                case 'I':sum+=1;break;
-                case 'V':sum+=5;break;
-                case 'X':sum+=10;break;
-                case 'L':sum+=50;break;
-                case 'C':sum+=100;break;
-                case 'D':sum+=500;break;
-                case 'M':sum+=1000;break;
-                default:break;
+        for (char c : chars) {
+            switch (c) {
+                case 'I':
+                    sum += 1;
+                    break;
+                case 'V':
+                    sum += 5;
+                    break;
+                case 'X':
+                    sum += 10;
+                    break;
+                case 'L':
+                    sum += 50;
+                    break;
+                case 'C':
+                    sum += 100;
+                    break;
+                case 'D':
+                    sum += 500;
+                    break;
+                case 'M':
+                    sum += 1000;
+                    break;
+                default:
+                    break;
             }
         }
-        if(s.indexOf("IV")!=-1){
+        if(s.contains("IV")){
             sum-=2;
         }
-        if(s.indexOf("IX")!=-1){
+        if(s.contains("IX")){
             sum-=2;
         }
-        if (s.indexOf("XL")!=-1){
+        if (s.contains("XL")){
             sum-=20;
         }
-        if (s.indexOf("XC")!=-1){
+        if (s.contains("XC")){
             sum-=20;
         }
-        if (s.indexOf("CD")!=-1){
+        if (s.contains("CD")){
             sum-=200;
         }
-        if (s.indexOf("CM")!=-1){
+        if (s.contains("CM")){
             sum-=200;
         }
         return sum;
