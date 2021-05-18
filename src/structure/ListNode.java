@@ -2,7 +2,7 @@ package structure;
 
 
 /**
- * @author: Tang
+
  * @create: 2018/9/14 9:53
  **/
 public class ListNode {

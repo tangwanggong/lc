@@ -3,7 +3,7 @@ package medium.array;
 import java.util.*;
 
 /**
- * @author tangh
+ *
  * @date 2020/1/18
  */
 public class ThreeSum {

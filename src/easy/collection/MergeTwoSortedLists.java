@@ -3,7 +3,6 @@ package easy.collection;
 import structure.ListNode;
 
 /**
- * @author: Tang
  * @create: 2018/9/20 9:24
  **/
 public class MergeTwoSortedLists {

@@ -1,7 +1,7 @@
 package medium.string;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 17:55
  **/
 public class LongestSubstringWithoutRepeatingCharacters {

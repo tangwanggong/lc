@@ -1,11 +1,10 @@
 package medium.array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author tangh
+ *
  * @date 2020/1/17
  */
 public class Subsets {

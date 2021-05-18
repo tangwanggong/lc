@@ -3,7 +3,7 @@ package easy.tree;
 import structure.TreeNode;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/12 14:57
  **/
 public class MergeTwoBinaryTrees {

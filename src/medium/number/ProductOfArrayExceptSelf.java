@@ -1,7 +1,7 @@
 package medium.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/9 11:08
  **/
 public class ProductOfArrayExceptSelf {

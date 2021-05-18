@@ -3,7 +3,7 @@ package medium.array;
 import java.util.Arrays;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/25 21:02
  **/
 public class ThreeSumClosest {

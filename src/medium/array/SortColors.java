@@ -1,7 +1,7 @@
 package medium.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 10:48
  **/
 public class SortColors {

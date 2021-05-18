@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/28 22:46
  **/
 public class SearchInsertPosition {

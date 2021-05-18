@@ -28,7 +28,7 @@ package medium.array;
  *
  * 输入: m = 7, n = 3
  * 输出: 28
- * @author tangh
+ *
  * @date 2020/5/25
  */
 public class UniquePaths {

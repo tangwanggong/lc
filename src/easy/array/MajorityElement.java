@@ -3,7 +3,7 @@ package easy.array;
 import java.util.Arrays;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/13 9:42
  **/
 public class MajorityElement {

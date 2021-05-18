@@ -3,7 +3,7 @@ package medium.array;
 import java.util.Arrays;
 
 /**
- * @author tangh
+ *
  * @date 2020/1/18
  */
 public class NextPermutation {

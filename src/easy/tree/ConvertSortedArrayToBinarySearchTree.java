@@ -2,10 +2,8 @@ package easy.tree;
 
 import structure.TreeNode;
 
-import javax.transaction.TransactionRequiredException;
-
 /**
- * @author: Tang
+
  * @create: 2018/9/18 10:15
  **/
 public class ConvertSortedArrayToBinarySearchTree {

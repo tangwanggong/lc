@@ -1,9 +1,7 @@
 package easy.string;
 
-import java.util.Arrays;
-
 /**
- * @author: Tang
+
  * @create: 2018/9/18 9:33
  **/
 public class FirstUniqueCharacterInAString {

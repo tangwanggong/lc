@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/12 15:06
  **/
 public class SelfDividingNumbers {

@@ -3,7 +3,7 @@ package structure;
 /**
  * @program: lc
  * @packet: structure
- * @author: Tang
+
  * @create: 2018/9/12 14:20
  **/
 public class TreeNode {

@@ -3,7 +3,7 @@ package easy.collection;
 import structure.ListNode;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/14 15:01
  **/
 public class DeleteNodeInALinkedList {

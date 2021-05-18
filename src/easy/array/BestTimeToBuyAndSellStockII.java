@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/25 14:33
  **/
 public class BestTimeToBuyAndSellStockII {

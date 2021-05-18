@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/12 15:31
  **/
 public class MoveZeroes {

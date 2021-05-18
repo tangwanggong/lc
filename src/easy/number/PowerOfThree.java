@@ -1,7 +1,7 @@
 package easy.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/12 15:16
  **/
 public class PowerOfThree {

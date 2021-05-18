@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 15:51
  **/
 public class TwoSumIIInputArrayIsSorted {

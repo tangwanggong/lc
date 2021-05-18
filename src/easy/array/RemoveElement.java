@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 10:04
  **/
 public class RemoveElement {

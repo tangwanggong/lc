@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/19 20:38
  **/
 public class RemoveDuplicatesFromSortedArray {

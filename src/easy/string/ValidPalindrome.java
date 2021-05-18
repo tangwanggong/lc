@@ -1,7 +1,7 @@
 package easy.string;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 16:10
  **/
 public class ValidPalindrome {

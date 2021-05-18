@@ -3,7 +3,7 @@ package easy.collection;
 import structure.ListNode;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/29 11:30
  **/
 public class LinkedListCycle {

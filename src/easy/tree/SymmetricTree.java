@@ -2,11 +2,8 @@ package easy.tree;
 
 import structure.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
- * @author: Tang
+
  * @create: 2018/9/21 9:49
  **/
 public class SymmetricTree {

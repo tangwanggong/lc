@@ -1,7 +1,7 @@
 package easy.number;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/19 21:13
  **/
 public class FactorialTrailingZeroes {

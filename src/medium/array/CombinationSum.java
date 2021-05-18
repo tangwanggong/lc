@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author tang
  * @date 2019/5/28
  */
 public class CombinationSum {

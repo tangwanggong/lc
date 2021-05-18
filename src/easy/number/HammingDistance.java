@@ -1,7 +1,7 @@
 package easy.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/12 14:40
  **/
 public class HammingDistance {

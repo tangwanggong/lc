@@ -1,7 +1,7 @@
 package easy.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/25 9:01
  **/
 public class ClimbingStairs {

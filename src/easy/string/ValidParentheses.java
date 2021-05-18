@@ -4,7 +4,7 @@ package easy.string;
 import java.util.Stack;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/20 20:33
  **/
 public class ValidParentheses {

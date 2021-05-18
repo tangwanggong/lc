@@ -4,7 +4,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author tanghao
  * @date 2020/11/24
  */
 public class LongestCommonPrefix {

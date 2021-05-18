@@ -1,7 +1,7 @@
 package easy.array;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/8 17:38
  **/
 public class MinimumSizeSubarraySum {

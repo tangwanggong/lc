@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/20 10:25
  **/
 public class PascalsTriangle {

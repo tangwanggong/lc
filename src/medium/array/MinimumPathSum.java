@@ -1,7 +1,7 @@
 package medium.array;
 
 /**
- * @author tangh
+ *
  * @date 2019/5/29
  */
 public class MinimumPathSum {

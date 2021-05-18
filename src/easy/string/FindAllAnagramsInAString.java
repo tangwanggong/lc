@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: Tang
+
  * @create: 2018/10/9 9:31
  **/
 public class FindAllAnagramsInAString {

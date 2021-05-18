@@ -1,7 +1,7 @@
 package medium.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/29 15:53
  **/
 public class IntegerBreak {

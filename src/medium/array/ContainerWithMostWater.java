@@ -1,7 +1,7 @@
 package medium.array;
 
 /**
- * @author: Tang
+
  * @create: 2019/3/24 22:10
  **/
 public class ContainerWithMostWater {

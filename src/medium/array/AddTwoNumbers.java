@@ -2,10 +2,8 @@ package medium.array;
 
 import structure.ListNode;
 
-import java.util.List;
-
 /**
- * @author tangh
+ *
  * @date 2020/1/17
  */
 public class AddTwoNumbers {

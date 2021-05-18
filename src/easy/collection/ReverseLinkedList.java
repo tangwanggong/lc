@@ -4,10 +4,9 @@ import structure.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/14 9:56
  **/
 public class ReverseLinkedList {

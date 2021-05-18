@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/19 11:39
  **/
 public class IntersectionOfTwoArraysII {

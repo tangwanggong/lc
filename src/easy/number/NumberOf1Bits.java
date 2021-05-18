@@ -1,7 +1,7 @@
 package easy.number;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/26 10:10
  **/
 public class NumberOf1Bits {

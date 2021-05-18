@@ -1,7 +1,7 @@
 package easy.string;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/13 9:12
  **/
 public class ExcelSheetColumnNumber {

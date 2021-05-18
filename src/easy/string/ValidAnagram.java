@@ -3,7 +3,7 @@ package easy.string;
 import java.util.Arrays;
 
 /**
- * @author: Tang
+
  * @create: 2018/9/17 17:12
  **/
 public class ValidAnagram {
