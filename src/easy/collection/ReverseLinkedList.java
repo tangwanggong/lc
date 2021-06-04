@@ -2,11 +2,7 @@ package easy.collection;
 
 import structure.ListNode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
-
  * @create: 2018/9/14 9:56
  **/
 public class ReverseLinkedList {
@@ -20,25 +16,18 @@ public class ReverseLinkedList {
      * Follow up:
      *
      * A linked list can be reversed either iteratively or recursively. Could you implement both?
-     * 没有一点点思想- -
      * @param head
      * @return
      */
     public ListNode reverseList(ListNode head) {
-        if (head==null){
-            return null;
+        ListNode cur = head;
+        ListNode pre = null;
+        while (cur != null){
+            ListNode next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
-        List<Integer> list = new ArrayList();
-        while (head!=null){
-            list.add(head.val);
-            head = head.next;
-        }
-        ListNode listNode = new ListNode(list.get(list.size()-1));
-        ListNode l = listNode;
-        for (int i=list.size()-2;i>=0;i--){
-            listNode.next = new ListNode(list.get(i));
-            listNode = listNode.next;
-        }
-        return l;
+        return pre;
     }
 }
