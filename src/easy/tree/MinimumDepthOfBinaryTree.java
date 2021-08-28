@@ -2,6 +2,9 @@ package easy.tree;
 
 import structure.TreeNode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
  * 111. 二叉树的最小深度
@@ -28,5 +31,32 @@ public class MinimumDepthOfBinaryTree {
             min = Math.min(minDepth(root.right),min);
         }
         return min + 1;
+    }
+
+
+    public int minDepth2(TreeNode root) {
+        if(root == null){
+            return 0;
+        }
+        int min = 1;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode poll = queue.poll();
+                if(poll.left == null && poll.right == null){
+                    return min;
+                }
+                if(poll.left != null){
+                    queue.add(poll.left);
+                }
+                if(poll.right != null){
+                    queue.add(poll.right);
+                }
+            }
+            min++;
+        }
+        return min;
     }
 }
