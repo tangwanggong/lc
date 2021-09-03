@@ -41,4 +41,36 @@ public class MinimumWindowSubstring {
         }
         return min == Integer.MAX_VALUE ? "":s.substring(start,start+min);
     }
+    public String minWindow2(String s, String t) {
+        if(s == null || "".equals(s) || t == null || "".equals(t)){
+            return "";
+        }
+        int[] chars = new int[128];
+        for (char c : t.toCharArray()) {
+            chars[c]++;
+        }
+
+        int l = 0,r = 0 ,len = Integer.MAX_VALUE,start = 0,count = t.length();
+        while (r<s.length()){
+            char c = s.charAt(r);
+            if(chars[c]>0){
+                count--;
+            }
+            chars[c]--;
+            while (count == 0){
+                if(r-l+1 < len){
+                    len = r-l+1;
+                    start = l;
+                }
+                if(chars[s.charAt(l)] >= 0){
+                    count++;
+                }
+                chars[s.charAt(l)] ++;
+                l++;
+            }
+            r++;
+        }
+        return len == Integer.MAX_VALUE? "":s.substring(start,start+len);
+    }
+
 }
