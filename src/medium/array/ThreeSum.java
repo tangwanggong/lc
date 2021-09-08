@@ -60,4 +60,45 @@ public class ThreeSum {
         return new ArrayList<>(set);
     }
 
+    public List<List<Integer>> threeSum2(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i] > 0){
+                break;
+            }
+            if(i>0 && nums[i] == nums[i-1]){
+                continue;
+            }
+            int base = nums[i];
+            int l = i + 1,r = nums.length-1;
+            while (l<r){
+                int lv = nums[l],rv = nums[r];
+                int sum = base + lv + rv;
+                if(sum == 0){
+                    result.add(Arrays.asList(base,lv,rv));
+                    l++;
+                    r--;
+                    while (l<r && nums[l] == nums[l-1]){
+                        l++;
+                    }
+                    while (l<r && nums[r] == nums[r+1]){
+                        r--;
+                    }
+                }else if(sum < 0){
+                    l++;
+                    while (l<r && nums[l] == nums[l-1]){
+                        l++;
+                    }
+                }else if(sum > 0){
+                    r--;
+                    while (l<r && nums[r] == nums[r+1]){
+                        r--;
+                    }
+                }
+            }
+        }
+        return result;
+    }
+
 }
