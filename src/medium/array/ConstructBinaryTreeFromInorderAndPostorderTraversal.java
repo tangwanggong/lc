@@ -48,5 +48,25 @@ public class ConstructBinaryTreeFromInorderAndPostorderTraversal {
         treeNode.left = help(inorder,postorder,pl,mid-1,map);
         return treeNode;
     }
+    public TreeNode buildTree2(int[] inorder, int[] postorder) {
+        return helper(inorder,0,inorder.length-1,postorder,0,postorder.length-1);
+    }
 
+    private TreeNode helper(int[] inorder, int inorderStart, int inorderEnd, int[] postorder, int postorderStart, int postorderEnd) {
+        if(inorderStart > inorderEnd){
+            return null;
+        }
+        int index = -1;
+        for (int i = inorderStart; i <= inorderEnd; i++) {
+            if(inorder[i] == postorder[postorderEnd]){
+                index = i;
+                break;
+            }
+        }
+        int leftLen = index - inorderStart;
+        TreeNode root = new TreeNode(postorder[postorderEnd]);
+        root.left = helper(inorder,inorderStart,index-1,postorder,postorderStart,postorderStart+leftLen-1);
+        root.right = helper(inorder,index+1,inorderEnd,postorder,postorderStart+leftLen,postorderEnd-1);
+        return root;
+    }
 }
